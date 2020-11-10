@@ -26,7 +26,13 @@
       "Components": [ "src/components"],
       "Views": [ "src/views"],
       "Routes": [ "src/routes"],
-      "Utils": ["src/utils"]
+      "Utils": ["src/utils"],
+      "Apis": ["src/apis"],
+      "Constants": ["src/constants"],
+      "I18n": ["src/i18n"],
+      "Layouts": ["src/layouts"],
+      "Stores": ["src/stores"],
+      "Styles": ["src/styles"]
     }
   },
   "include": [

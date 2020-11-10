@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Routes from "Routes";
 import { withRouter } from "react-router-dom";
-import "./App.less";
 
 interface IAppComponentProps {
 }

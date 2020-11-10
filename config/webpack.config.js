@@ -339,6 +339,12 @@ module.exports = function (webpackEnv) {
         'Views': path.resolve(__dirname, '../src/views/'),
         'Routes': path.resolve(__dirname, '../src/routes/'),
         'Utils': path.resolve(__dirname, '../src/utils/'),
+        'Apis': path.resolve(__dirname, '../src/apis/'),
+        'Constants': path.resolve(__dirname, '../src/constants/'),
+        'I18n': path.resolve(__dirname, '../src/i18n/'),
+        'Layouts': path.resolve(__dirname, '../src/layouts/'),
+        'Stores': path.resolve(__dirname, '../src/stores/'),
+        'Styles': path.resolve(__dirname, '../src/styles/'),
       },
       plugins: [
         // Adds support for installing with Plug'n'Play, leading to faster installs and adding
