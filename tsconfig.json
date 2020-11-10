@@ -26,6 +26,7 @@
       "Components": [ "src/components"],
       "Views": [ "src/views"],
       "Routes": [ "src/routes"],
+      "Utils": ["src/utils"]
     }
   },
   "include": [

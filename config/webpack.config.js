@@ -338,6 +338,7 @@ module.exports = function (webpackEnv) {
         'Components': path.resolve(__dirname, '../src/components/'),
         'Views': path.resolve(__dirname, '../src/views/'),
         'Routes': path.resolve(__dirname, '../src/routes/'),
+        'Utils': path.resolve(__dirname, '../src/utils/'),
       },
       plugins: [
         // Adds support for installing with Plug'n'Play, leading to faster installs and adding
