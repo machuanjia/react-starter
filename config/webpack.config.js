@@ -27,6 +27,7 @@ const ForkTsCheckerWebpackPlugin = require('react-dev-utils/ForkTsCheckerWebpack
 const typescriptFormatter = require('react-dev-utils/typescriptFormatter');
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 
+
 const postcssNormalize = require('postcss-normalize');
 
 const appPackageJson = require(paths.appPackageJson);
@@ -332,6 +333,11 @@ module.exports = function (webpackEnv) {
           'scheduler/tracing': 'scheduler/tracing-profiling',
         }),
         ...(modules.webpackAliases || {}),
+        '@': path.resolve(__dirname, '../src/'),
+        'Assets': path.resolve(__dirname, '../src/assets/'),
+        'Components': path.resolve(__dirname, '../src/components/'),
+        'Views': path.resolve(__dirname, '../src/views/'),
+        'Routes': path.resolve(__dirname, '../src/routes/'),
       },
       plugins: [
         // Adds support for installing with Plug'n'Play, leading to faster installs and adding
