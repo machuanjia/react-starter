@@ -1,16 +1,15 @@
 import React, { Component } from "react";
-interface IMyComponentProps {
-  someDefaultValue: string
+interface IAsyncComponentProps {
 }
 
-interface IMyComponentState {
+interface IAsyncComponentState {
   component: any
 }
 
 
 export default function asyncComponent(importComponent :any ) {
-  class AsyncComponent extends Component<IMyComponentProps,IMyComponentState> {
-    constructor(props:any) {
+  class AsyncComponent extends Component<IAsyncComponentProps,IAsyncComponentState> {
+    constructor(props:IAsyncComponentProps) {
       super(props);
 
       this.state = {
