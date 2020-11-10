@@ -13,7 +13,7 @@ class App extends Component<IAppComponentProps, IAppComponentState> {
   constructor(props: IAppComponentProps) {
     super(props);
     this.state = {
-      isAuthenticated: false,
+      isAuthenticated: true,
     };
   }
   render() {
