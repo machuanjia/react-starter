@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 class Home extends Component {
   render() {
     return <div>
-      <p>this is home page</p>
+      <p>home</p>
       <Link to="/about">goto About</Link>
     </div>
   }
