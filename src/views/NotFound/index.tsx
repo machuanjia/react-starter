@@ -1,6 +1,9 @@
-import React from "react";
+/** @format */
 
-export default () =>
-  <div className="NotFound">
-    <h3>Sorry, page not found!</h3>
-  </div>;
+import React from 'react'
+
+export default () => (
+    <div className="NotFound">
+        <h3>Sorry, page not found!</h3>
+    </div>
+)
