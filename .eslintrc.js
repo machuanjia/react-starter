@@ -24,5 +24,7 @@ module.exports = {
       jsx: true,
     },
   },
-  rules: {},
+  rules: {
+    "no-implicit-dependencies": 'off'
+  },
 };

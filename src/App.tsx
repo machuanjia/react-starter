@@ -1,7 +1,7 @@
 /** @format */
 
 import React, {Component} from 'react'
-import Routes from 'Routes'
+import Routes from '@routes'
 import {withRouter} from 'react-router-dom'
 import {useTranslation, withTranslation, Trans} from 'react-i18next'
 

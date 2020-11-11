@@ -1,7 +1,7 @@
 /** @format */
 
 import axios from 'axios'
-import {getToken} from 'Utils/catch'
+import {getToken} from '@utils/catch'
 
 const service = axios.create({
     baseURL: process.env.REACT_APP_BASE_API, // url = base url + request url
