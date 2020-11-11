@@ -1,6 +1,6 @@
 /** @format */
 
-import common from 'I18n/en/common'
+import common from '@i18n/en/common'
 
 export default {
     ...common,

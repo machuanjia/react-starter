@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 import {Helmet} from 'react-helmet'
 import {useTranslation, withTranslation, Trans} from 'react-i18next'
 import {connect} from 'react-redux'
-import {addArticle} from 'Stores/actions'
+import {addArticle} from '@stores/actions'
 
 class About extends Component<any, any> {
     addNewArticle = (e: React.FormEvent) => {

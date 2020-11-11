@@ -2,7 +2,7 @@
 
 import React from 'react'
 import {Route, Switch} from 'react-router-dom'
-import {AsyncComponent, AppliedRoute, AuthenticatedRoute, UnauthenticatedRoute} from 'Components'
+import {AsyncComponent, AppliedRoute, AuthenticatedRoute, UnauthenticatedRoute} from '@components'
 const AsyncHome = AsyncComponent(() => import('../views/Home'))
 const AsyncAbout = AsyncComponent(() => import('../views/About'))
 const AsyncNotFound = AsyncComponent(() => import('../views/NotFound'))
